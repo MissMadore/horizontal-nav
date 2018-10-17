@@ -1,25 +1,40 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: sans-serif;
+  color: #fff;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #79756f;
+  text-align: center;
+  border: 3px solid #595652;
+}
+
 h1 {
   font-family: "Bevan", cursive;
   color: #fff;
+}
+
+.boxes {
+  list-style-type: none;
   text-align: center;
 }
 
-html {
-  background-color: #dbd6cf;
+.boxes li{
+  display: inline-block;
+  margin: .3em;
+  padding: .6em .5em .75em;
+  background-color: #713837;
+  border-radius: .3em;
+  text-align: center;
 }
 
-header {
-  background-color: #79756f;
-}
-
-nav ul {
-  list-style-type: none;
+.boxes li:hover {
+  background-color: #f33;
 }
