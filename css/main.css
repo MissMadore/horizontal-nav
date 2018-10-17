@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
   font-family: sans-serif;
   color: #fff;
   line-height: 1.5;
@@ -8,6 +7,11 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #dbd6cf;
+  margin: .3em;
 }
 
 header {
@@ -26,15 +30,14 @@ h1 {
   text-align: center;
 }
 
-.boxes li{
+.boxes li {
   display: inline-block;
-  margin: .3em;
   padding: .6em .5em .75em;
   background-color: #713837;
   border-radius: .3em;
   text-align: center;
 }
 
-.boxes li:hover {
+nav:hover {
   background-color: #f33;
 }
